@@ -5,24 +5,47 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/css/styles.css">
   
   <title>Frontend Mentor | Advice generator app</title>
 
-  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
-  <style>
-    .attribution { font-size: 11px; text-align: center; }
-    .attribution a { color: hsl(228, 45%, 44%); }
-  </style>
 </head>
 <body>
 
-  Advice #<!-- Advice ID goes here -->
+  <main class="container text-center">
+    <div class="row align-items-center justify-content-center">
+      <div class="col-11 col-md-5">
+        <div class="card-holder p-5 position-relative">
+          <h6 class="advice-header pb-3 text-uppercase">
+            Advice #117
+          </h6>
+          <blockquote class="advice-body mb-5">
+            "It is easy to sit up and take notice, what's difficult is getting up and taking action."
+          </blockquote>
+          <div class="divider mb-4">
+            <img src="images/pattern-divider-desktop.svg" class="img-fluid d-none d-sm-block" alt="divider">
+            <img src="images/pattern-divider-mobile.svg" class="img-fluid d-sm-none" alt="divider">
+          </div>
+          <button  class="rounded-circle position-absolute">
+            <img src="images/icon-dice.svg" class="img-fluid " alt="randomize-dice">
+          </button>
+        </div>
+      </div>
+    </div>
+  </main>
 
-  "<!-- Advice text goes here -->"
   
   <div class="attribution">
     Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
-    Coded by <a href="#">Your Name Here</a>.
+    Coded by <a href="#">Habiba AbouElyazeed</a>.
   </div>
+
+
+
+  <script src="js/script.js"></script>
 </body>
 </html>

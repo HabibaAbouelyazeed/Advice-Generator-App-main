@@ -1,0 +1,65 @@
+
+:root{
+    --lightCyan: hsl(193, 38%, 86%);
+    --neonGreen: hsl(150, 100%, 66%);
+    --grayishBlue: hsl(217, 19%, 38%);
+    --darkGrayishBlue: hsl(217, 19%, 24%);
+    --darkBlue: hsl(218, 23%, 16%);
+}
+
+
+
+body{
+    font-family: 'Manrope', sans-serif;
+    background-color: var(--darkBlue);
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+}
+
+
+/* Card ==>START */
+.card-holder {
+    background-color: var(--darkGrayishBlue);
+    border-radius: 10px;
+}
+
+
+.card-holder .advice-header{
+    color: var(--neonGreen);
+    letter-spacing: 3px;
+}
+
+.card-holder .advice-body{
+    color: var(--lightCyan);
+    font-size: 28px;
+}
+
+
+.card-holder button{
+    width: 60px;
+    height: 60px;
+    bottom: -30px;
+    left: 50%;
+    transform: translateX(-50%);
+    border: none;
+    background-color: var(--neonGreen);
+}
+
+.card-holder button:hover{
+    box-shadow: 0 0 40px 5px var(--neonGreen);
+    /*x offset, y offset, blur size, spread size, color */
+}
+
+/* Card ==>END */
+
+
+/* Attribution */
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+    color: var(--lightCyan);
+}
+.attribution a { 
+    color: var(--neonGreen); 
+}
