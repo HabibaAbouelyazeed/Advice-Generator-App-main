@@ -2,7 +2,7 @@ const adviceAPI_URL = 	"https://api.adviceslip.com/advice";
 
 
 let adviceIdSpan = document.querySelector('.card-holder .advice-id');
-let adviceBodyQuote = document.querySelector('.card-holder .advice-body');
+let adviceBodyQuote = document.querySelector('.card-holder .advice-body span');
 let diceButton = document.querySelector('.card-holder button');
 
 
